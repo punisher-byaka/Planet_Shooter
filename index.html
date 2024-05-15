@@ -81,12 +81,11 @@
         });
 
         document.getElementById('refreshButton').addEventListener('click', async function() {
-    const { loadScores, sortScores, createLeaderboardButtons } = await import('./js/main.js'); 
-    const scores = loadScores();
-    sortScores(scores);
-    createLeaderboardButtons(scores);
-});
-
+            const { loadScores, sortScores, createLeaderboardButtons } = await import('./js/main.js');
+            const scores = loadScores();
+            sortScores(scores);
+            createLeaderboardButtons(scores);
+        });
 
         document.getElementById('toggleStore').addEventListener('click', function() {
             const storeMenu = document.getElementById('storemenu');
