@@ -1,0 +1,197 @@
+#toggleMenu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    transition: left 0.3s;
+    background: black; 
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.store-menu .menu-buttons {
+    position: absolute; 
+    bottom: 10px;
+    width: 200px;
+    display: flex;
+    justify-content: center; 
+    padding: 0 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.store-menu .menu-buttons2 {
+    position: absolute; 
+    
+    bottom: 60px;
+    width: 200px;
+    display: flex;
+    justify-content: center; 
+    padding: 0 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.store-menu .btn {
+    color: white;
+    background-color: black;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.store-menu h3, .store-menu p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.store-menu {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: -250px;
+    background: black;
+    color: white;
+    transition: right 0.3s; 
+    text-align: center;
+    overflow-y: scroll;
+    z-index: 2;
+}
+
+
+.side-menu {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    background: black; 
+    color: white; 
+    transition: left 0.3s;
+    text-align: center;
+    overflow-y: scroll;
+
+}
+
+.leaderboard-buttons {
+    content: flex-grow;
+}
+
+.side-menu .menu-buttons {
+    position: fixed;
+    bottom: 10px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 1;
+}
+
+.side-menu .btn {
+    color: white; 
+    background-color: black; 
+    border: none; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.side-menu h3, .side-menu p {
+    color: white;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#gameOverModal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background: white;
+    padding: 20px;
+    border: 5px solid black; 
+    text-align: center;
+    z-index: 1000;
+    border-radius: 10px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#gameOverModal h3 {
+    background-color: darkgray;
+    color: black; 
+    padding: 10px 0;
+    border: 3px solid black; 
+    border-radius: 10px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#gameOverModal p {
+    color: black; 
+}
+
+#saveButton {
+    margin-top: 10px;
+    width: 100%;
+    background: darkgray;
+    color: black; 
+    padding: 10px 0;
+    border: 3px solid black; 
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 10px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#saveButton:hover {
+    background-color: white;
+    color: black;
+}
+
+#scoreModal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background: white;
+    padding: 20px;
+    border: 5px solid black; 
+    text-align: center;
+    z-index: 1000;
+    border-radius: 10px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#scoreModal h3 {
+    background-color: darkgray;
+    color: black; 
+    padding: 10px 0;
+    border: 3px solid black; 
+    border-radius: 10px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#scoreModal p {
+    color: black; 
+}
+
+#backbutton {
+    margin-top: 10px;
+    width: 100%;
+    background: darkgray;
+    color: black; 
+    padding: 10px 0;
+    border: 3px solid black; 
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 10px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#backbutton:hover {
+    background-color: white;
+    color: black;
+}
