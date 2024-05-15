@@ -260,30 +260,30 @@ var canFire = true;
 var cH = 0;
 var cW = 0;
 
-spriteShot.src = '../images/shot.png';
+spriteShot.src = 'images/shot.png';
 
-spriteShardA.src = '../images/shardA.png';
-spriteShardB.src = '../images/shardB.png';
-spriteShardC.src = '../images/shardC.png';
+spriteShardA.src = 'images/shardA.png';
+spriteShardB.src = 'images/shardB.png';
+spriteShardC.src = 'images/shardC.png';
 
-spriteTurretA.src = '../images/turretA.png';
-spriteTurretB.src = '../images/turretB.png';
-spriteTurretC.src = '../images/turretC.png';
+spriteTurretA.src = 'images/turretA.png';
+spriteTurretB.src = 'images/turretB.png';
+spriteTurretC.src = 'images/turretC.png';
 
-spriteCoreA.src = '../images/coreA.png';
-spriteCoreB.src = '../images/coreB.png';
-spriteCoreC.src = '../images/coreC.png';
+spriteCoreA.src = 'images/coreA.png';
+spriteCoreB.src = 'images/coreB.png';
+spriteCoreC.src = 'images/coreC.png';
 
-spriteShieldA.src = '../images/shieldA.png';
-spriteShieldB.src = '../images/shieldB.png';
-spriteShieldC.src = '../images/shieldC.png';
+spriteShieldA.src = 'images/shieldA.png';
+spriteShieldB.src = 'images/shieldB.png';
+spriteShieldC.src = 'images/shieldC.png';
 
-spriteAst1A.src = '../images/ast1A.png';
-spriteAst2A.src = '../images/ast1A.png';
-spriteAst1B.src = '../images/ast1B.png';
-spriteAst2B.src = '../images/ast2B.png';
-spriteAst1C.src = '../images/ast1C.png';
-spriteAst2C.src = '../images/ast2C.png';
+spriteAst1A.src = 'images/ast1A.png';
+spriteAst2A.src = 'images/ast1A.png';
+spriteAst1B.src = 'images/ast1B.png';
+spriteAst2B.src = 'images/ast2B.png';
+spriteAst1C.src = 'images/ast1C.png';
+spriteAst2C.src = 'images/ast2C.png';
 
 spriteStart.src = '../images/start.png';
 
